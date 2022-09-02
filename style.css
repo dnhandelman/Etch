@@ -1,0 +1,35 @@
+.grid-item {
+    /* outline: 1px solid blue; */
+    width: 100%;
+   display: flex;
+
+}
+
+.grid-item:hover {
+    background-color: blueviolet;
+}
+
+.container {
+    display: grid;
+    
+    width: 500px;
+    height: 500px;
+    
+
+
+   /*  width: 550px;
+    height: 550px;
+    display: grid;
+    grid-gap: 0;
+    justify-content: stretch;
+    box-shadow: 0 0 60px cyan;
+    padding-left: -5%;
+    background: #ffffff;
+    opacity: 1;
+ */
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
